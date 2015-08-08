@@ -519,6 +519,38 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "app/index.html",
+			"settings":
+			{
+				"buffer_size": 2958,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/scripts/app.js",
+			"settings":
+			{
+				"buffer_size": 339,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/main.html",
+			"settings":
+			{
+				"buffer_size": 739,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/styles/main.scss",
+			"settings":
+			{
+				"buffer_size": 76,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -736,7 +768,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 579.0
+		"width": 516.0
 	},
 	"console":
 	{
@@ -765,12 +797,16 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
-	"expanded_folders":
-	[
-	],
 	"file_history":
 	[
+		"/home/brian/dev/700c/musicdb/musicdb.sublime-workspace",
 		"/home/brian/dev/chalktalk/chalk-talk/roster.sublime-project",
+		"/home/brian/dev/700c/musicdb/Gruntfile.js",
+		"/home/brian/dev/700c/musicdb/.tmp/styles/main.css",
+		"/home/brian/dev/tn/tw/web/Gruntfile.js",
+		"/home/brian/dev/chalktalk/chalk-talk/visual/Gruntfile.js",
+		"/home/brian/dev/700c/musicdb/.git/COMMIT_EDITMSG",
+		"/home/brian/dev/700c/musicdb/node_modules/grunt-karma/node_modules/lodash/lang/isNative.js",
 		"/home/brian/dev/chalktalk/chalk-talk/.git/COMMIT_EDITMSG",
 		"/home/brian/dev/chalktalk/chalk-talk/visual/app/views/school-list.html",
 		"/home/brian/dev/chalktalk/chalk-talk/visual/app/views/roster.html",
@@ -841,7 +877,6 @@
 		"/home/brian/dev/tn/tw/web/app/scripts/explore/explore-routes-cards-controller.js",
 		"/home/brian/dev/tn/tw/web/app/views/route/route-completions-filter-directive.html",
 		"/home/brian/dev/tn/tw/web/app/users/signin.html",
-		"/home/brian/dev/tn/tw/web/Gruntfile.js",
 		"/home/brian/dev/tn/tw/web/app/scripts/person/persons-url-encoding.js",
 		"/home/brian/dev/tn/tw/web/app/scripts/person/person-controller.js",
 		"/home/brian/dev/tn/tw/web/app/views-nopreprocess/terms/privacy.html",
@@ -891,17 +926,11 @@
 		"/home/brian/dev/tn/tw/web/app/scripts/user/current-user-web-api-service.js",
 		"/home/brian/dev/tn/tn/pom.xml",
 		"/home/brian/dev/tn/tw/web/app/scripts/user/current-user-controller.js",
-		"/home/brian/dev/tn/tw/web/app/scripts/explore/explore-route-cards-controller.js",
-		"/home/brian/dev/tn/tw/web/app/scripts/explore/explore-route-chart-controller.js",
-		"/home/brian/dev/tn/tw/web/app/views/explore/explore-route-leaflets.html",
-		"/home/brian/dev/tn/tw/web/app/views/route/route-leaderboard-list-directive.html",
-		"/home/brian/dev/tn/tw/web/app/scripts/common/unsafe.js",
-		"/home/brian/dev/tn/tw/web/app/styles/_user.scss",
-		"/home/brian/dev/tn/tw/web/app/vendor/underscore/1.5.2/underscore.js"
+		"/home/brian/dev/tn/tw/web/app/scripts/explore/explore-route-cards-controller.js"
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 37.0
 	},
 	"find_in_files":
 	{
@@ -927,6 +956,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"auto",
+			"sass",
+			"autopref",
+			"sass",
 			"format_field",
 			"consol",
 			"sport",
@@ -1050,11 +1083,7 @@
 			"filter",
 			"map",
 			"tn-activity-types",
-			"color",
-			"route-card",
-			"float",
-			"$tn-card-height-sm",
-			"matchmedia"
+			"color"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1132,8 +1161,138 @@
 	"groups":
 	[
 		{
+			"selected": 2,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "app/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2958,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1538,
+								1538
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/scripts/app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 339,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								119,
+								119
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/views/main.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 739,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								296,
+								296
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 3,
+					"file": "app/styles/main.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 76,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								47,
+								47
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -1154,11 +1313,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.5,
 			1.0
 		],
 		"rows":
@@ -1173,7 +1339,7 @@
 		"height": 0.0
 	},
 	"pinned_build_system": "",
-	"project": "/home/brian/dev/chalktalk/chalk-talk/roster.sublime-project",
+	"project": "musicdb.sublime-workspace",
 	"replace":
 	{
 		"height": 42.0
@@ -1185,6 +1351,26 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"grunt",
+				"Gruntfile.js"
+			],
+			[
+				"main",
+				".tmp/styles/main.css"
+			],
+			[
+				"app",
+				"app/scripts/app.js"
+			],
+			[
+				"index",
+				"app/index.html"
+			],
+			[
+				"in",
+				"node_modules/grunt-karma/node_modules/lodash/lang/isNative.js"
+			],
 			[
 				"neu",
 				"chalk-talk/scrapers/neulion_scraper.py"
@@ -1208,10 +1394,6 @@
 			[
 				"base",
 				"chalk-talk/scrapers/base_scraper.py"
-			],
-			[
-				"app",
-				"chalk-talk/visual/app/scripts/app.js"
 			],
 			[
 				"school_sport.html",
@@ -1332,10 +1514,6 @@
 			[
 				"complefilter",
 				"app/scripts/route/route-completions-filter-directive.js"
-			],
-			[
-				"grunt",
-				"Gruntfile.js"
 			],
 			[
 				"exploreroutesservice",
@@ -1684,18 +1862,6 @@
 			[
 				"trailheadleaflet",
 				"app/scripts/explore/explore-trailhead-leaflets-controller.js"
-			],
-			[
-				"routedetai",
-				"app/views/route/route-detail-directive.html"
-			],
-			[
-				"precon",
-				"app/scripts/person/preference-constants.js"
-			],
-			[
-				"userco",
-				"app/scripts/user/current-user-controller.js"
 			]
 		],
 		"width": 0.0
@@ -1718,7 +1884,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 	},

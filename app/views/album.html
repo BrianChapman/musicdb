@@ -1,0 +1,22 @@
+<md-content>
+    <app-header show-search="false"></app-header>
+    <div layout="column" layout-gt-md="row">
+        <album-artwork album="album"></album-artwork>
+        <div flex class="album-info">
+            <h1 ng-bind="album.title"></h1>
+            <h3 ng-repeat="artist in album['artist-credit']">{{artist.artist.name}}</h3>
+        </div>
+    </div>
+    <md-list>
+        <md-subheader class="md-no-sticky">
+            <div layout="row">
+                <p flex>Recordings:</p>
+                <p flex>Length:</p>
+            </div>
+        </md-subheader>
+        <md-list-item ng-repeat="recording in recordings">
+            <p>{{recording.title}}</p>
+            <p>{{formatLength(recording['length'])}}</p>
+        </md-list-item>
+    </md-list>
+</md-content>

@@ -2,7 +2,7 @@
   "name": "musicdb",
   "version": "0.0.0",
   "dependencies": {
-    "angular": "~1.2.0",
+    "angular": "~1.4.3",
     "json3": "~3.2.4",
     "es5-shim": "~2.1.0",
     "angular-resource": "~1.2.0",

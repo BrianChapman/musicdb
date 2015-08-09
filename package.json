@@ -33,7 +33,9 @@
     "grunt-contrib-compass": "~0.9.1",
     "phantomjs": "~1.9.17",
     "karma-phantomjs-launcher": "~0.2.1",
-    "angular-mocks": "~1.4.3"
+    "angular-mocks": "~1.4.3",
+    "jasmine-core": "~2.3.4",
+    "karma-jasmine": "~0.3.6"
   },
   "engines": {
     "node": ">=0.8.0"

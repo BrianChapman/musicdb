@@ -6,6 +6,16 @@ Due to the way Music Brainz operates, there may be duplicate songs (known as rec
 
 Also, since this is an open source database, not all album artwork is available.
 
+# Technology Used
+
+- Yeoman Angular scafolding (Angular 1.4.3)
+- Angular Materials style sheets (based on the Google Material Design Specs)
+- SASS CSS pre-processing
+- Autoprefixer (automatically adds CSS prefixes when appropriate)
+- Angular-router
+- Grunt build system
+- Karma test harnest with Jasmine and PhantomJS
+
 # Installation
 
 ## Install Dependencies

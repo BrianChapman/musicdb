@@ -48,9 +48,9 @@ describe('Controller: MainCtrl', function() {
 
 	}));
 
-	// it('should set the albumId', function() {
-	// 	expect(scope.albumId).toBe(albumId);
-	// });
+	it('should set the albumId', function() {
+		expect(scope.albumId).toBe(albumId);
+	});
 
 	it('should retreive the album using the albumId', function() {
 		deferredAlbum.resolve(albumResponse);

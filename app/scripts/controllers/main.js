@@ -14,6 +14,7 @@ angular.module('musicdbApp')
 						$scope.albums.add(result.data['release-groups']);
 					}
 				}, function(error) {
+					console.log(error);
 					$scope.error = error;
 				});
 			}

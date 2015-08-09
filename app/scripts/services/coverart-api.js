@@ -44,10 +44,8 @@ angular.module('musicdbApp')
 			var mbid = findMbId(album);
 			return $q(function(resolve, reject) {
 				$http.jsonp(ANY_ORIGIN_BASE + COVERART_API_BASE + '/release/' + mbid).then(function(response) {
-					console.log('success? ', response);
 					if(response && response.data && response.data.contents && typeof(response.data.contents) === 'object') {
 						var content = response.data.contents;
-						console.log('coverart success: ', content);
 						resolve(content);
 					} else {
 						reject(coverArtErrorMsg(album));

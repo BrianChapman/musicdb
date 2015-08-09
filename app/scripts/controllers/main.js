@@ -15,7 +15,7 @@ angular.module('musicdbApp')
 					}
 				}, function(error) {
 					console.log(error);
-					$scope.error = error;
+					$scope.app.error = error;
 				});
 			}
 		});

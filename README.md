@@ -14,7 +14,7 @@ Also, since this is an open source database, not all album artwork is available.
 - Autoprefixer (automatically adds CSS prefixes when appropriate)
 - Angular-router
 - Grunt build system
-- Karma test harnest with Jasmine and PhantomJS
+- Karma test harness with Jasmine and PhantomJS
 
 # Installation
 

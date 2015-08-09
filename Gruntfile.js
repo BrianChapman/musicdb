@@ -68,7 +68,7 @@ module.exports = function (grunt) {
       },
       livereload: {
         options: {
-          open: false,
+          open: true,
           base: [
             '.tmp',
             '<%= yeoman.app %>'

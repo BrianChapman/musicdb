@@ -1,13 +1,12 @@
 <md-content>
-    <app-header ng-model="query" show-search="true"></app-header>
+    <app-header ng-model="albums.query" show-search="true"></app-header>
     <md-content class="md-padding">
-        <md-card ng-show="!albums">
+        <md-card ng-show="!albums || albums.length == 0 && albums.query == ''">
             <md-card-content class="center">
                 <h2 class="md-title">Find Albums</h2>
                 <p>
                     Search the Music Brainz database for Albums
                 </p>
-                {{query}}
             </md-card-content>
         </md-card>
         <div ng-show="albums">
@@ -22,5 +21,13 @@
                 </md-grid-tile>
             </md-grid-list>
         </div>
+        <md-card ng-show="albums.length == 0 && albums.query != ''">
+            <md-card-content class="center">
+                <h2 class="md-title">No Results</h2>
+                <p>
+                    Sorry, we could not find any albums :(
+                </p>
+            </md-card-content>
+        </md-card>
     </md-content>
 </md-content>
